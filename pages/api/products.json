@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "Tea - Grapefruit Green Tea",
+        "price": 1
+    },
+    {
+        "id": 2,
+        "name": "Lamb - Shoulder, Boneless",
+        "price": 2
+    },
+    {
+        "id": 3,
+        "name": "Flour - Cake",
+        "price": 3
+    },
+    {
+        "id": 4,
+        "name": "Creme De Cacao White",
+        "price": 4
+    },
+    {
+        "id": 5,
+        "name": "Ham - Cooked Bayonne Tinned",
+        "price": 5
+    }
+]
