@@ -9,18 +9,20 @@ export default function Product(props) {
   const { product } = props;
 
   return (
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 250, maxHeight: 250, margin: 4 }}>
       <CardActionArea>
       <CardMedia
           component="img"
           image={product.image}
+          height={100}
+          width={100}
         />
         <CardContent>
-          <Typography gutterBottom variant="h3" component="div">
+          <Typography gutterBottom variant="h5" component="div">
             {product.name}
           </Typography>
-          <Typography gutterBottom variant="h5" component="div">
-            {product.price} $
+          <Typography gutterBottom variant="h6" component="p">
+            {product.price}$
           </Typography>
         </CardContent>
       </CardActionArea>

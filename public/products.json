@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Syrup - Chocolate",
+        "price": 1,
+        "image": "https://iambaker.net/wp-content/uploads/2020/05/syrup-fb.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Cookies Oatmeal Raisin",
+        "price": 5,
+        "image": "https://i0.wp.com/www.livewellbakeoften.com/wp-content/uploads/2020/08/Oatmeal-Raisin-Cookies-9.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Longos - Grilled Chicken With",
+        "price": 10,
+        "image": "https://i0.wp.com/www.themodernnonna.com/wp-content/uploads/2022/04/Easiest-2-Ingredient-Baked-Chicken.jpeg"
+    },
+    {
+        "id": 4,
+        "name": "Dried Figs",
+        "price": 4,
+        "image": "https://www.bottegadicalabria.com/media/magefan_blog/Fichi_secchi_1200X800.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Stock - Veal, White",
+        "price": 40,
+        "image": "https://images.ctfassets.net/3s5io6mnxfqz/VEXn1Oiog0DgbUNU79cja/7016c63c031ee03abfb57548c5c10af4/AdobeStock_214296869.jpeg"
+    }
+]
