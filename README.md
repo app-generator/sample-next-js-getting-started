@@ -7,7 +7,7 @@ This is a simple project for an introduction to Next.js. You will find two branc
 
 ## Installation
 
-First of all, clone the project. 
+First of all, clone the project.
 
 ```bash
 git clone https://github.com/app-generator/sample-next-js-getting-started.git
