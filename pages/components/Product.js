@@ -13,16 +13,16 @@ export default function Product(props) {
       <CardActionArea>
       <CardMedia
           component="img"
-          image={product.image}
+          image={product?.image}
           height={100}
           width={100}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
-            {product.name}
+            {product?.name}
           </Typography>
           <Typography gutterBottom variant="h6" component="p">
-            {product.price}$
+            {product?.price}$
           </Typography>
         </CardContent>
       </CardActionArea>
