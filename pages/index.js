@@ -5,13 +5,10 @@ import Product from "./components/Product";
 import { supabase } from "../supabaseClient";
 
 const getProducts = async () => {
-  const { data, error} = await supabase
-  .from("Product")
-  .select("*")
-  
-  return data
-}
+  const { data, error } = await supabase.from("Product").select("*");
 
+  return data;
+};
 
 export default function Home() {
   const [products, setProducts] = React.useState([]);
