@@ -11,7 +11,7 @@ export default function Product(props) {
   return (
     <Card sx={{ maxWidth: 250, maxHeight: 250, margin: 4 }}>
       <CardActionArea>
-      <CardMedia
+        <CardMedia
           component="img"
           image={product?.image}
           height={100}
