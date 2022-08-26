@@ -19,6 +19,13 @@ Once it's done, install the packages.
 yarn install
 ```
 
+Retrieve the keys from your Supabase account such as the Project anon public key and the Project URL. Then, set these variables in a `.env` file.
+
+```bash
+NEXT_PUBLIC_SUPABASE_URL=YOUR_SUPABASE_URL
+NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
+```
+
 And next, you can run the project.
 
 ```bash
