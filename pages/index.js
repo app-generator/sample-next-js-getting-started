@@ -2,13 +2,7 @@ import React from "react";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Product from "./components/Product";
-import { supabase } from "../supabaseClient";
-
-const getProducts = async () => {
-  const { data, error } = await supabase.from("Product").select("*");
-
-  return data;
-};
+import { getProducts } from "./api/products";
 
 export default function Home() {
   const [products, setProducts] = React.useState([]);
